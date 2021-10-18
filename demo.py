@@ -14,7 +14,16 @@ class Calculator:
         return x * y
 
     def divide(self, x, y):
-        return x / y
+        try:
+            x = int(input("Enter First Number: "))
+            y = int(input("Enter Second Number: "))
+            result = x / y
+            print(result)
+        #except ValueError as e:
+         #   print("Invalid Input Please Input Integer...")
+        except ZeroDivisionError as e:
+            print(e)
+#return x / y
 
 def main():
     calculator = Calculator()

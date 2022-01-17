@@ -8,7 +8,7 @@ print(12*12)
 print()
 
 print('hello! world')
-print("python strings are easy to use")
+print("python strings are easy to use!!!hurry")
 print()
 print('we can even include "quotes" in strings')
 print("hello " + 'world')
